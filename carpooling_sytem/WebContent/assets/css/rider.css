@@ -1,0 +1,69 @@
+.riderpage{
+
+}
+.rider_form{
+  /* width: 100%; */
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2em;
+  z-index: 999999;
+  border: 2px solid #00CB7A;
+}
+.rider_form input{
+  width: 100%;
+  padding: 1em;
+  border-style: none;
+  border-bottom: 1px solid #00CB7A;
+}
+.ride_btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2em;
+  border-radius: 50px;
+  padding: 2.5em;
+  background: #00CB7A;
+  color: #fff;
+  border: 5px solid #fff;
+  z-index: 999999;
+}
+.gmap_canvas iframe{
+  width: 100%;
+  overflow:hidden;
+  background:none!important;
+  height: 100vh;
+}
+.mapouter{
+  width: 100%;
+  height: 100vh;
+  text-align: right;
+}
+
+
+.available_drivers{
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  bottom: 0;
+  z-index: 9999;
+  max-height: 350px;
+  overflow-y: scroll;
+  display: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .rider_form input{
+    width: 50%;
+    padding: 1em;
+    border-style: none;
+    border-left: 1px solid #00CB7A;
+  }
+  .ride_btn{
+    bottom: 5em;
+  }
+}

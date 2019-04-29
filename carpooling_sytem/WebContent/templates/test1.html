@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+    
+    function validate(){
+    	
+    	var uname=document.getElementById("name").value
+    	console.log("name is "+name)
+    	alert("name is "+name)
+    //	alert(uname)
+    	if(uname=="")
+    		{
+    	console.log("inside")	
+    		document.getElementById("name").style.borderColor = "red";
+    		}
+    	else{
+    		document.form.action="ss.jsp"
+    			document.form.submit()
+    	}
+    	
+    }
+    
+    </script>
+</head>
+<body>
+
+<form>
+Enter name<input id="name" name="name" >
+<br>
+<input type="button" value="Login" onclick="validate()">
+
+</form>
+</body>
+</html>

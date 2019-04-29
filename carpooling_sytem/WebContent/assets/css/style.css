@@ -1,0 +1,70 @@
+/* Autor: Basker Sai Kumar Patnaik Baggam*/
+/* Date : 15th May, 2019 */
+
+/* ///////////////////////////// */
+/* homepage style */
+/* ///////////////////////////// */
+.homepage{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.homepage_contents{
+
+}
+.homepage_img{
+
+}
+.homepage_img img{
+  width: 100%;
+  padding: 2em;
+}
+.homepage_text{
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 0 1em;
+}
+.carpool_button{
+  padding: 1em;
+  width: 90%;
+  border-style: none;
+  border-radius: 5px;
+  background: #00CB7A;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 1em 0;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+}
+.carpool_button:hover{
+  border: 2px solid #00CB7A;
+  background: #fff;
+  color: #00CB7A;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .homepage_contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+  }
+  .homepage_img img{
+    width: 100%;
+    padding: 2em;
+  }
+  .homepage_text{
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0 1em;
+  }
+  .carpool_button{
+    width: 25%;
+    padding: 0.5em;
+  }
+}
